@@ -1,0 +1,64 @@
+@import '../variables';
+
+.first-screen {
+  position: relative;
+  overflow: hidden;
+  &__body {
+    padding: 50px 0;
+  }
+  &__corner {
+    height: 200%;
+    width: 100%;
+    top: -50%;
+    left: -52%;
+    position: absolute;
+    background: rgba(#fff, 1);
+    transform: rotate(9deg);
+  }
+  &__text {
+    position: relative;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    z-index: 3;
+    background: rgba(#fff, 0.6);
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 50px;
+      line-height: 59px;
+    }
+    h3 {
+      margin-bottom: 20px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: #386641;
+
+      span {
+        text-decoration-line: underline;
+        text-underline-offset: 10px;
+      }
+    }
+    p {
+      line-height: 24px;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__btn {
+    align-self: flex-start;
+  }
+
+  &__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    img {
+      height: 100%;
+    }
+  }
+}

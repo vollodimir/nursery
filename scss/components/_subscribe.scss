@@ -1,0 +1,48 @@
+@import '../variables';
+
+.subscribe {
+  background: url('../../img/services_bg.svg') no-repeat;
+  background-size: cover;
+
+  &__body {
+    padding: 50px 0 60px;
+    text-align: center;
+
+    h3 {
+      font-size: 44px;
+      line-height: 52px;
+      font-weight: 500;
+      margin-bottom: 50px;
+    }
+    span {
+      font-weight: 700;
+      color: #a9d16a;
+    }
+  }
+
+  &__row {
+    position: relative;
+    height: 54px;
+
+    input {
+      width: 100%;
+      padding: 16px 208px 16px 16px;
+      border-radius: 28px;
+      background: #dadada;
+      font-size: 18px;
+      line-height: 22px;
+      color: #4b4b4b;
+      outline: none;
+    }
+    button {
+      min-height: 54px;
+      min-width: 230px;
+      border-radius: 140px;
+    }
+  }
+  &__btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
