@@ -2,7 +2,7 @@
 
 .video {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../../img/video_bg.png') no-repeat;
+    url('../img/video_bg.png') no-repeat;
   background-size: cover;
 
   &__body {
@@ -64,7 +64,7 @@
       top: 0;
       left: 0;
       position: absolute;
-      background: url('../../img/icon/video_play.svg') no-repeat center center;
+      background: url('../img/icon/video_play.svg') no-repeat center center;
       background-size: 37px 48px;
       z-index: 2;
     }
@@ -101,7 +101,7 @@
       display: block;
       text-transform: uppercase;
       padding-left: 30px;
-      background: url('../../img/icon/video_close.svg') no-repeat left center;
+      background: url('../img/icon/video_close.svg') no-repeat left center;
       background-size: 20px;
       color: #fff;
     }

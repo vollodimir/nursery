@@ -7,10 +7,17 @@
   padding-right: 10px;
 }
 
-.telephone {
+.telephone,
+.telephone a {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  color: #202020;
+  transition: 0.5s;
+  &:hover {
+    text-decoration: none;
+    color: #386641;
+  }
 }
 
 .btn {
