@@ -63,7 +63,7 @@
   display: none;
   position: fixed;
   right: 20px;
-  bottom: 20px;
+  bottom: 40px;
   width: 3em;
   height: 3em;
   background-color: rgba(56, 102, 65, 0.4);
@@ -143,17 +143,21 @@
   font-weight: 600;
   line-height: 20px;
 }
-.header__menu--have-menu {
+.header__menu--have-menu,
+.header__menu .menu-item-has-children {
   position: relative;
   margin-right: 50px;
 }
-.header__menu--have-menu a {
+.header__menu--have-menu a,
+.header__menu .menu-item-has-children a {
   background-image: url("../img/icon/sub-menu_arrow.svg");
   background-repeat: no-repeat;
   background-size: 12px;
   background-position: center right 30%;
+  pointer-events: none;
 }
-.header__sub-menu {
+.header__sub-menu,
+.header .sub-menu {
   display: none;
   max-width: 60%;
   padding: 10px 20px;
@@ -166,19 +170,31 @@
   font-size: 14px;
   text-align: left;
 }
-.header__sub-menu li {
+.header__sub-menu li,
+.header .sub-menu li {
   margin: 0;
   padding: 5px 0;
   border: 0;
 }
+.header__sub-menu a,
+.header__sub-menu a:hover,
+.header .sub-menu a,
+.header .sub-menu a:hover {
+  pointer-events: all;
+}
 .header__sub-menu a::before, .header__sub-menu a::after,
 .header__sub-menu a:hover::before,
-.header__sub-menu a:hover::after {
+.header__sub-menu a:hover::after,
+.header .sub-menu a::before,
+.header .sub-menu a::after,
+.header .sub-menu a:hover::before,
+.header .sub-menu a:hover::after {
   content: "";
   width: 0px;
   height: 0px;
 }
-.header__sub-menu a {
+.header__sub-menu a,
+.header .sub-menu a {
   text-transform: none;
   font-weight: 400;
   margin-right: 0;
@@ -333,6 +349,7 @@
 }
 .qualyty__ithem {
   margin: 0 17px;
+  height: 150px;
 }
 .qualyty__ithem img {
   margin: 0 auto;
@@ -486,12 +503,15 @@
   z-index: 150;
 }
 .popup__bg {
+  flex-grow: 1;
+  margin: 25px;
   padding: 45px 0;
   position: relative;
 }
 .popup__bg iframe {
   aspect-ratio: 16/9;
   width: 100%;
+  height: 100%;
 }
 .popup__bg a {
   position: absolute;
@@ -743,8 +763,10 @@
   margin-bottom: 35px;
   line-height: 26px;
 }
+.widget__body h2,
 .widget__body h3 {
   margin-bottom: 15px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 19px;
   color: #386641;
@@ -783,6 +805,39 @@
   margin: 11px;
   width: 20px;
   height: 20px;
+}
+
+.blog {
+  background: url("../img/services_bg.svg") no-repeat;
+  background-size: cover;
+}
+.blog__body {
+  padding: 45px 25px;
+}
+.blog__body h1 {
+  font-size: 3em;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+.blog__body h2 {
+  font-size: 2em;
+  line-height: 63px;
+}
+.blog__body a {
+  color: #000;
+}
+.blog__body a:hover {
+  color: #386641;
+}
+.blog__entry {
+  padding-bottom: 20px;
+}
+.blog__entry a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.blog__entry p {
+  line-height: 24px;
 }
 
 .container {
@@ -849,7 +904,7 @@
   display: none;
   position: fixed;
   right: 20px;
-  bottom: 20px;
+  bottom: 40px;
   width: 3em;
   height: 3em;
   background-color: rgba(56, 102, 65, 0.4);
@@ -905,7 +960,8 @@
     display: block;
     text-align: right;
   }
-  .header__menu--have-menu::after {
+  .header__menu--have-menu::after,
+.header__menu .menu-item-has-children::after {
     content: "";
     right: 40%;
   }
@@ -1098,16 +1154,19 @@
     height: 2px;
     background: #ffd401;
   }
-  .header__menu--have-menu {
+  .header__menu--have-menu,
+.header__menu .menu-item-has-children {
     cursor: pointer;
   }
-  .header__menu--have-menu a {
+  .header__menu--have-menu a,
+.header__menu .menu-item-has-children a {
     padding-right: 16px;
     margin-right: 8px;
     background-size: 8px;
     background-position: center right;
   }
-  .header__sub-menu {
+  .header__sub-menu,
+.header .sub-menu {
     display: none;
     max-width: unset;
     padding: 10px 20px 0;
@@ -1116,20 +1175,27 @@
     border-radius: 5px;
     z-index: 120;
   }
-  .header__sub-menu li {
+  .header__sub-menu li,
+.header .sub-menu li {
     margin: 0 0 10px 0;
   }
   .header__sub-menu a::before, .header__sub-menu a::after,
 .header__sub-menu a:hover::before,
-.header__sub-menu a:hover::after {
+.header__sub-menu a:hover::after,
+.header .sub-menu a::before,
+.header .sub-menu a::after,
+.header .sub-menu a:hover::before,
+.header .sub-menu a:hover::after {
     content: "";
     width: 0px;
     height: 0px;
   }
-  .header__sub-menu a {
+  .header__sub-menu a,
+.header .sub-menu a {
     transition: 0.7s;
   }
-  .header__sub-menu a:hover {
+  .header__sub-menu a:hover,
+.header .sub-menu a:hover {
     color: #ffd401;
   }
   .header__all-menu {

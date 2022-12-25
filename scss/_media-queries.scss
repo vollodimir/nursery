@@ -47,7 +47,8 @@
     }
 
     &__menu {
-      &--have-menu {
+      &--have-menu,
+      .menu-item-has-children {
         &::after {
           content: '';
           right: 40%;
@@ -326,7 +327,8 @@
         }
       }
 
-      &--have-menu {
+      &--have-menu,
+      .menu-item-has-children {
         cursor: pointer;
 
         a {
@@ -338,7 +340,8 @@
       }
     }
 
-    &__sub-menu {
+    &__sub-menu,
+    .sub-menu {
       display: none;
       max-width: unset;
       padding: 10px 20px 0;

@@ -1,0 +1,39 @@
+@import '../variables';
+
+.blog {
+  background: url('../img/services_bg.svg') no-repeat;
+  background-size: cover;
+
+  &__body {
+    padding: 45px 25px;
+
+    h1 {
+      font-size: 3em;
+      line-height: normal;
+      padding-bottom: 30px;
+    }
+    h2 {
+      font-size: 2em;
+      line-height: 63px;
+    }
+    a {
+      color: #000;
+      &:hover {
+        color: #386641;
+      }
+    }
+  }
+
+  &__entry {
+    padding-bottom: 20px;
+
+    a {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    p {
+      line-height: 24px;
+    }
+  }
+}
