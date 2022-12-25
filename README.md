@@ -21,38 +21,34 @@ WordPress version hosted: <a href="http://nursery.pl.vn.ua/">nursery.pl.vn.ua</a
   <li>Enjoy!</li>
 </ul>
 
-<code>
-<form method="post" action="/?na=s">
-<div class="subscribe__row">
-<input type="email" placeholder="Enter Your Email" required />
-<div class="subscribe__btn btn"><button  type="submit" >join the list</button></div>
-</div>
-</form>
-</code>
-
 ## HTML tags to form Newsletter:
 
+```
 <form method="post" action="/?na=s">
 <div class="subscribe__row">
 <input type="email" placeholder="Enter Your Email" required />
 <div class="subscribe__btn btn"><button  type="submit" >join the list</button></div>
 </div>
 </form>
+```
 
 ### HTML tags to footer widgets:
 
 #### Footer Widget 1:
 
-HOURS & LOCAtION
+```
+<h3>HOURS & LOCAtION</h3>
 
 <p><strong>2317 Fort Worth Hwy<br />
 Weatherford, Texas 76087</strong></p>
 <p>Mon-Sat: 9 AM – 5 PM<br />
 Closed Sunday</p>
+```
 
 #### Footer Widget 2:
 
-Judy’s recent posts
+```
+<h3>Judy’s recent posts</h3>
 
 <ul>
 	<li><a href="#">Native trees and shrubs for Bluebirds</a></li>
@@ -61,10 +57,12 @@ Judy’s recent posts
 	<li><a href="#">Drought Tolerant Plants</a></li>
 	<li><a href="#">Urban sprawl and deer-resistant plants</a></li>
 </ul>
+```
 
 #### Footer Widget 3:
 
-Menu
+```
+<h3>Menu</h3>
 
 <ul>
   <li><a href="#">Home</a></li>
@@ -73,10 +71,12 @@ Menu
   <li><a href="#">Get Financing</a></li>
   <li><a href="#">Contact Us</a></li>
 </ul>
+```
 
 #### Footer Widget 4:
 
-Contact
+```
+<h3>Contact</h3>
 
 <div class="telephone"><a href="tel:817-596-0003">817-596-0003</a></div>
 <p><strong>info@stuartnursery.com</strong></p>
@@ -87,8 +87,9 @@ Contact
 </div>
 <div class="widget__socials-ithem">
 <a href="#"><img src="/wp-content/themes/wp-nursery/assets/img/icon/socials_telegram.svg" alt="" /></a>
-</div> 
+</div>
 <div class="widget__socials-ithem">
 <a href="#"><img src="/wp-content/themes/wp-nursery/assets/img/icon/socials_instagram.svg" alt="" /></a>
 </div>
 </div>
+```
