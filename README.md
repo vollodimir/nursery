@@ -6,6 +6,8 @@ HTML version hosted: <a href="http://pl.vn.ua/nursery/">pl.vn.ua/nursery</a>
 
 WordPress version hosted: <a href="http://nursery.pl.vn.ua/">nursery.pl.vn.ua</a>
 
+WordPress template is archive: <strong>wp-nursery.zip</strong>
+
 ## WP Nursery installation theme guide to WordPress
 
 ### Steps:

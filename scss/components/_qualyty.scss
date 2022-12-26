@@ -1,13 +1,14 @@
 @import '../variables';
 
 .qualyty {
+  background-color: #dce4cc;
+
   &__body {
     position: relative;
-    display: flex;
+    //display: flex;
+    //justify-content: center;
     height: 150px;
     overflow: hidden;
-    background-color: #dce4cc;
-    justify-content: center;
   }
   &__ithem {
     margin: 0 17px;

@@ -146,7 +146,6 @@
 .header__menu--have-menu,
 .header__menu .menu-item-has-children {
   position: relative;
-  margin-right: 50px;
 }
 .header__menu--have-menu a,
 .header__menu .menu-item-has-children a {
@@ -339,13 +338,13 @@
   height: 100%;
 }
 
+.qualyty {
+  background-color: #dce4cc;
+}
 .qualyty__body {
   position: relative;
-  display: flex;
   height: 150px;
   overflow: hidden;
-  background-color: #dce4cc;
-  justify-content: center;
 }
 .qualyty__ithem {
   margin: 0 17px;

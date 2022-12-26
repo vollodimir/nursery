@@ -72,7 +72,8 @@ $line-height: $width/7;
     &--have-menu,
     .menu-item-has-children {
       position: relative;
-      margin-right: 50px;
+      //margin-right: 50px;
+
       a {
         background-image: url('../img/icon/sub-menu_arrow.svg');
         background-repeat: no-repeat;
