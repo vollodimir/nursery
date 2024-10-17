@@ -4,7 +4,7 @@ HTML templtate, landing page, HTML to WordPress, mobile first, jQuery
 
 HTML version hosted: <a href="http://pl.vn.ua/nursery/">pl.vn.ua/nursery</a>
 
-WordPress version hosted: <a href="http://nursery.pl.vn.ua/">nursery.pl.vn.ua</a>
+WordPress version hosted: <a href="https://wp.pl.vn.ua/nursery/">wp.pl.vn.ua/nursery</a>
 
 WordPress template is archive: <strong>wp-nursery.zip</strong>
 
